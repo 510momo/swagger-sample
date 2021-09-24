@@ -93,6 +93,7 @@ responses:
           $ref: '#/definitions/movies'
       required:
         - result
+    examples: {}
 definitions:
   movie:
     title: movie
@@ -109,6 +110,9 @@ definitions:
         type: string
         description: 公開日
         format: date
+      director_name:
+        type: string
+        description: 監督名
     required:
       - name
       - description
